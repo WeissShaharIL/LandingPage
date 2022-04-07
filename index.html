@@ -23,7 +23,7 @@
 
     .column {
       float: left;
-      width: 33.3%;
+      width: 25%;
       margin-bottom: 16px;
       padding: 0 8px;
     }
@@ -108,10 +108,10 @@
   <div class="row">
     <div class="column">
       <div class="card">
-        <img src="img/monitoring.jpg" alt="Monitoring" style="width:100%">
+        
         <div class="container">
           <h2>Monitoring system</h2>
-          <p>Here is a monitoring system</p>
+          <p>Monitoring system built from scratch, ive used a working jenkins script which used Azure api to check servicebus error queues for new messages, in case there were any, an alert has been triggered. I modify this script to call another my script with all the data, then manipulated the data the create tables that shows all the current error queus, each error queue i used Azure connection string to view the error itself. I then added to this the option to view top Exception failiures and top URL and IP requests using Azure cli gathering data from application insights.</p>
           <a href="monitoring/monitor.html" class="button">Show Me</a>
           <p></p>
         </div>
@@ -120,7 +120,7 @@
 
     <div class="column">
       <div class="card">
-        <img src="/w3images/team2.jpg" alt="Mike" style="width:100%">
+        
         <div class="container">
           <h2>MYSQL Project</h2>
           <p class="title">Art Director</p>
